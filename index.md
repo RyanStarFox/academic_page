@@ -25,6 +25,7 @@ Outside the lab, I try to keep life interesting. If you would like to know more 
 ## Awards
 
 - 2025, **Class C Undergraduate Scholarship**, Shanghai Jiao Tong University.
+- 2024–2025, **Outstanding Youth League Cadre**, Shanghai Jiao Tong University, for serving as General Director of the SJTU Campus Singing Contest.
 - 2024, **Class C Undergraduate Scholarship**, Shanghai Jiao Tong University.
 - 2023–2024, **Outstanding Student Award**, Shanghai Jiao Tong University.
 - **Second Prize**, 16th National College Mathematics Competition (Non-Math Major, Group A).
