@@ -20,6 +20,8 @@ Outside the lab, I try to keep life interesting. If you would like to know more 
 
 {% include_relative _includes/experiences.md %}
 
+{% include_relative _includes/publications.md %}
+
 ## Awards
 
 - 2025, **Class C Undergraduate Scholarship**, Shanghai Jiao Tong University.
