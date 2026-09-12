@@ -277,35 +277,34 @@ section a {
 
 .publications ol.bibliography li .pub-row {
   display: flex;
+  flex-direction: column;
   align-items: stretch;
   gap: 16px;
 }
 
 .publications ol.bibliography li .abbr {
-  display: flex;
-  align-items: stretch;
-  flex: 0 0 auto;
+  display: block;
+  flex: none;
   height: auto;
-  min-height: 0;
   margin: 0;
   padding: 0;
 }
 
 .publications ol.bibliography li .teaser {
   display: block;
-  width: auto;
+  width: 100%;
   height: auto;
-  max-width: 360px;
+  max-width: none;
   margin: 0;
   object-fit: contain;
-  object-position: left center;
+  object-position: center center;
   background: var(--card);
   box-shadow: none;
   border: 0;
 }
 
 .publications ol.bibliography li .col-sm-9 {
-  flex: 1 1 auto;
+  flex: none;
   width: auto;
   min-width: 0;
   padding: 0;
@@ -376,16 +375,5 @@ section a {
   .site-nav-links a {
     padding: 0.4rem 0.45rem;
     font-size: 0.84rem;
-  }
-
-  .publications ol.bibliography li .pub-row {
-    flex-direction: column;
-    gap: 12px;
-  }
-
-  .publications ol.bibliography li .teaser {
-    width: 100%;
-    height: auto;
-    max-width: none;
   }
 }

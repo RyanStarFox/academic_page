@@ -81,12 +81,12 @@ html[data-theme="dark"] .publications ol.bibliography li .links a.btn { color: v
 .publications ol.bibliography li .teaser {
   display: block;
   border-radius: 8px;
-  width: auto;
+  width: 100%;
   height: auto;
-  max-width: 360px;
+  max-width: none;
   margin: 0;
   object-fit: contain;
-  object-position: left center;
+  object-position: center center;
   background: var(--card, #fcfcfe);
   box-shadow: none;
   border: 0;

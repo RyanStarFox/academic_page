@@ -31,26 +31,4 @@
       }
     } catch (e) {}
   });
-
-  function sizePublicationTeasers() {
-    document.querySelectorAll(".pub-row").forEach(function (row) {
-      var img = row.querySelector(".teaser");
-      var text = row.querySelector(".col-sm-9");
-      if (!img || !text) return;
-      img.style.height = "";
-      img.style.width = "";
-      if (window.matchMedia("(max-width: 480px)").matches) return;
-      var height = text.offsetHeight;
-      if (height < 80) return;
-      img.style.height = height + "px";
-      img.style.width = "auto";
-    });
-  }
-
-  window.addEventListener("load", sizePublicationTeasers);
-  window.addEventListener("resize", sizePublicationTeasers);
-  document.querySelectorAll(".teaser").forEach(function (img) {
-    img.addEventListener("load", sizePublicationTeasers);
-  });
-  sizePublicationTeasers();
 })();
