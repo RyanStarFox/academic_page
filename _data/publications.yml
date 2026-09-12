@@ -6,5 +6,5 @@ main:
     conference: ICML 2026 Workshop on Agents in the Wild <strong>(AIWILD)</strong>
     pdf: https://openreview.net/forum?id=Fg7IC3UM4g
     code: https://github.com/opensage-agent/nitrobox
-    image: ./assets/img/nitrobox.png
+    image: /assets/img/nitrobox.png
     notes: Workshop

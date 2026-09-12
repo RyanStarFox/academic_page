@@ -2,7 +2,7 @@
   <div class="exp-card">
     <div class="exp-card-icon">
       <i class="fas fa-university" aria-hidden="true"></i>
-      <img src="./assets/img/experiences/ucsb.png" alt="UC Santa Barbara" onerror="this.style.display='none';">
+      <img src="{{ '/assets/img/experiences/ucsb.png' | relative_url }}" alt="UC Santa Barbara" onerror="this.style.display='none';">
     </div>
     <div class="exp-card-body">
       <p class="exp-card-org"><a href="https://www.ucsb.edu/" target="_blank" rel="noopener">UC Santa Barbara</a></p>
@@ -15,7 +15,7 @@
   <div class="exp-card">
     <div class="exp-card-icon">
       <i class="fas fa-university" aria-hidden="true"></i>
-      <img src="./assets/img/experiences/nus.png" alt="National University of Singapore" onerror="this.style.display='none';">
+      <img src="{{ '/assets/img/experiences/nus.png' | relative_url }}" alt="National University of Singapore" onerror="this.style.display='none';">
     </div>
     <div class="exp-card-body">
       <p class="exp-card-org"><a href="https://www.comp.nus.edu.sg/" target="_blank" rel="noopener">National University of Singapore</a></p>
@@ -28,7 +28,7 @@
   <div class="exp-card">
     <div class="exp-card-icon">
       <i class="fas fa-university" aria-hidden="true"></i>
-      <img src="./assets/img/experiences/sjtu.png" alt="Shanghai Jiao Tong University" onerror="this.style.display='none';">
+      <img src="{{ '/assets/img/experiences/sjtu.png' | relative_url }}" alt="Shanghai Jiao Tong University" onerror="this.style.display='none';">
     </div>
     <div class="exp-card-body">
       <p class="exp-card-org"><a href="https://www.sjtu.edu.cn/" target="_blank" rel="noopener">Shanghai Jiao Tong University</a></p>
@@ -40,7 +40,7 @@
   <div class="exp-card">
     <div class="exp-card-icon">
       <i class="fas fa-school" aria-hidden="true"></i>
-      <img src="./assets/img/experiences/shs.png" alt="Shanghai High School" onerror="this.style.display='none';">
+      <img src="{{ '/assets/img/experiences/shs.png' | relative_url }}" alt="Shanghai High School" onerror="this.style.display='none';">
     </div>
     <div class="exp-card-body">
       <p class="exp-card-org"><a href="https://www.shs.cn/" target="_blank" rel="noopener">Shanghai High School</a></p>
