@@ -36,8 +36,8 @@
 .exp-card-icon {
   position: relative;
   flex-shrink: 0;
-  width: 44px;
-  height: 44px;
+  width: 48px;
+  height: 48px;
   border-radius: 8px;
   overflow: hidden;
   background: linear-gradient(135deg, #f4f4f7, #e7e7ee);
@@ -53,9 +53,9 @@
 
 .exp-card-icon img {
   position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
+  inset: 4px;
+  width: calc(100% - 8px);
+  height: calc(100% - 8px);
   object-fit: contain;
   background: #fff;
 }
