@@ -31,3 +31,10 @@ Outside the lab, I try to keep life interesting. If you would like to know more 
 - **Second Prize**, 16th National College Mathematics Competition (Non-Math Major, Group A).
 - **GRE**: 327 / 340.
 - **TOEFL**: 110 / 120.
+
+## Contact
+
+<div class="contact-card" id="contact">
+<p>The easiest way to reach me is by email at <a href="mailto:ryan_fox@sjtu.edu.cn">ryan_fox@sjtu.edu.cn</a>.</p>
+<p>You can also find me on <a href="https://github.com/RyanStarFox">GitHub</a> and <a href="https://www.linkedin.com/in/shaoyan0223/">LinkedIn</a>, or visit my <a href="https://blog.ryanstarfox.top">blog</a>.</p>
+</div>

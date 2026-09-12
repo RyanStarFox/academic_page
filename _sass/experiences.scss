@@ -94,7 +94,7 @@
   margin: 0 0 0.15em;
 }
 
-@media (prefers-color-scheme: dark) {
+html[data-theme="dark"] {
   .exp-grid {
     scrollbar-color: #4a4b56 transparent;
   }
@@ -104,21 +104,21 @@
   }
 
   .exp-card {
-    background: #2a2b36;
-    border-color: #3a3b48;
+    background: var(--card);
+    border-color: var(--line);
   }
 
   .exp-card-icon {
-    background: linear-gradient(135deg, #343545, #2a2b36);
+    background: var(--card);
   }
 
   .exp-card-icon img {
-    background: #2a2b36;
+    background: var(--card);
   }
 
   .exp-card-mentor,
   .exp-card-period {
-    color: #a8a9b3;
+    color: var(--muted);
   }
 
   .exp-card-tag {
