@@ -2,29 +2,26 @@
   display: flex;
   gap: 1em;
   overflow-x: auto;
-  padding: 0.25em 0.25em 0.9em;
+  padding: 0.25em 0 0.35em;
   margin: 0.5em 0 1.6em;
   scroll-snap-type: x proximity;
-  background: transparent;
-  // Match page paper so the horizontal scrollbar track doesn't look like a gray strip
+  background: var(--paper);
   scrollbar-width: thin;
-  scrollbar-color: #c8c9d0 var(--paper);
+  scrollbar-color: #c8c9d0 transparent;
 }
 
 .exp-grid::-webkit-scrollbar {
-  height: 8px;
-  background: var(--paper);
+  height: 6px;
+  background: transparent;
 }
 
 .exp-grid::-webkit-scrollbar-track {
-  background: var(--paper);
+  background: transparent;
 }
 
 .exp-grid::-webkit-scrollbar-thumb {
   background: #c8c9d0;
   border-radius: 9999px;
-  border: 2px solid var(--paper);
-  background-clip: padding-box;
 }
 
 .exp-card {
@@ -101,17 +98,17 @@
 
 html[data-theme="dark"] {
   .exp-grid {
-    scrollbar-color: #4a4b56 var(--paper);
+    background: var(--paper);
+    scrollbar-color: #4a4b56 transparent;
   }
 
   .exp-grid::-webkit-scrollbar,
   .exp-grid::-webkit-scrollbar-track {
-    background: var(--paper);
+    background: transparent;
   }
 
   .exp-grid::-webkit-scrollbar-thumb {
     background: #4a4b56;
-    border-color: var(--paper);
   }
 
   .exp-card {
