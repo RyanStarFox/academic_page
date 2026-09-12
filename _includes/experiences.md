@@ -1,5 +1,5 @@
 <div class="exp-grid-wrap">
-<div class="exp-grid" role="region" aria-label="Experiences" aria-keyshortcuts="ArrowLeft ArrowRight">
+<div class="exp-grid" role="region" aria-label="Experiences">
   <div class="exp-card">
     <div class="exp-card-icon">
       <i class="fas fa-university" aria-hidden="true"></i>

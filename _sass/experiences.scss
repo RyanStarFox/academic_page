@@ -1,19 +1,7 @@
 .exp-grid-wrap {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr);
-  overflow: hidden;
-  overflow: clip;
+  overflow: visible;
+  clip-path: inset(0);
   margin: 0.5em 0 1.6em;
-  background: var(--paper);
-  scrollbar-width: none;
-  -ms-overflow-style: none;
-}
-
-.exp-grid-wrap::-webkit-scrollbar {
-  display: none !important;
-  width: 0 !important;
-  height: 0 !important;
-  background: transparent;
 }
 
 .exp-grid {
@@ -22,9 +10,9 @@
   width: max-content;
   max-width: none;
   overflow: visible;
-  padding: 0.25em 0;
+  padding: 0;
   margin: 0;
-  background: var(--paper);
+  background: transparent;
   cursor: grab;
   user-select: none;
   touch-action: pan-y;
@@ -112,11 +100,6 @@
 }
 
 html[data-theme="dark"] {
-  .exp-grid-wrap,
-  .exp-grid {
-    background: var(--paper);
-  }
-
   .exp-card {
     background: var(--card);
     border-color: var(--line);

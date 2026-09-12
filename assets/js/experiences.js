@@ -3,8 +3,6 @@
   var grid = document.querySelector(".exp-grid");
   if (!wrap || !grid) return;
 
-  grid.setAttribute("tabindex", "0");
-
   var offset = 0;
 
   function maxOffset() {
@@ -61,12 +59,6 @@
     event.stopPropagation();
     moved = false;
   }, true);
-
-  grid.addEventListener("keydown", function (event) {
-    if (event.key !== "ArrowLeft" && event.key !== "ArrowRight") return;
-    event.preventDefault();
-    setOffset(offset + (event.key === "ArrowRight" ? 220 : -220));
-  });
 
   window.addEventListener("resize", function () {
     setOffset(offset);
