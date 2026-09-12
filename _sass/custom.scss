@@ -110,8 +110,7 @@ dt {
   gap: 0.15rem;
 }
 
-.site-nav-links a,
-.theme-toggle {
+.site-nav-links a {
   font-family: "IBM Plex Sans", "Helvetica Neue", sans-serif;
   font-size: 0.92rem;
   font-weight: 500;
@@ -122,27 +121,10 @@ dt {
 }
 
 .site-nav-links a:hover,
-.site-nav-links a.is-active,
-.theme-toggle:hover {
+.site-nav-links a.is-active {
   background: var(--accent-soft);
   color: var(--accent-strong);
 }
-
-.theme-toggle {
-  border: 1px solid var(--line);
-  background: var(--card);
-  cursor: pointer;
-  width: 2.2rem;
-  height: 2.2rem;
-  padding: 0;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.theme-toggle .fa-sun { display: none; }
-html[data-theme="dark"] .theme-toggle .fa-moon { display: none; }
-html[data-theme="dark"] .theme-toggle .fa-sun { display: inline-block; }
 
 .wrapper {
   width: 960px;

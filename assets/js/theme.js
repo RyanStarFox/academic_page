@@ -1,34 +1,16 @@
 (function () {
   var root = document.documentElement;
-  var button = document.getElementById("theme-toggle");
+  var media = window.matchMedia("(prefers-color-scheme: dark)");
 
-  function currentTheme() {
-    return root.getAttribute("data-theme") === "dark" ? "dark" : "light";
+  function applySystemTheme() {
+    root.setAttribute("data-theme", media.matches ? "dark" : "light");
   }
 
-  function setTheme(theme) {
-    root.setAttribute("data-theme", theme);
-    try {
-      localStorage.setItem("theme", theme);
-    } catch (e) {}
-    if (button) {
-      var next = theme === "dark" ? "light" : "dark";
-      button.setAttribute("aria-label", "Switch to " + next + " mode");
-      button.setAttribute("title", "Switch to " + next + " mode");
-    }
-  }
+  applySystemTheme();
 
-  if (button) {
-    button.addEventListener("click", function () {
-      setTheme(currentTheme() === "dark" ? "light" : "dark");
-    });
+  if (media.addEventListener) {
+    media.addEventListener("change", applySystemTheme);
+  } else if (media.addListener) {
+    media.addListener(applySystemTheme);
   }
-
-  window.matchMedia("(prefers-color-scheme: dark)").addEventListener("change", function (event) {
-    try {
-      if (!localStorage.getItem("theme")) {
-        setTheme(event.matches ? "dark" : "light");
-      }
-    } catch (e) {}
-  });
 })();
