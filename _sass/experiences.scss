@@ -79,8 +79,8 @@
   display: inline-block;
   font-size: 0.75em;
   font-weight: 600;
-  color: #c2410c;
-  background: #fff1e8;
+  color: #00283a;
+  background: rgba(175, 180, 43, 0.18);
   padding: 0.1em 0.5em;
   border-radius: 9999px;
   margin-left: 0.25em;
@@ -122,7 +122,7 @@ html[data-theme="dark"] {
   }
 
   .exp-card-tag {
-    color: #fdba74;
-    background: #3b2416;
+    color: #afb42b;
+    background: rgba(175, 180, 43, 0.18);
   }
 }
