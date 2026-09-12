@@ -1,8 +1,14 @@
 .exp-grid-wrap {
   overflow: hidden;
+  contain: paint;
   margin: 0.5em 0 1.6em;
-  -webkit-mask-image: linear-gradient(#000, #000);
-  mask-image: linear-gradient(#000, #000);
+  scrollbar-width: none;
+}
+
+.exp-grid-wrap::-webkit-scrollbar {
+  width: 0;
+  height: 0;
+  background: transparent;
 }
 
 .exp-scroll {
@@ -10,15 +16,19 @@
   overflow-y: hidden;
   padding-bottom: 40px;
   margin-bottom: -40px;
-  scrollbar-width: none;
-  -ms-overflow-style: none;
+  scrollbar-width: thin;
+  scrollbar-color: var(--paper) var(--paper);
   overscroll-behavior-x: contain;
 }
 
 .exp-scroll::-webkit-scrollbar {
-  display: none;
-  width: 0;
-  height: 0;
+  height: 8px;
+  background: var(--paper);
+}
+
+.exp-scroll::-webkit-scrollbar-track,
+.exp-scroll::-webkit-scrollbar-thumb {
+  background: var(--paper);
 }
 
 .exp-grid {

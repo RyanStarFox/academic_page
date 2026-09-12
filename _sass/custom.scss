@@ -221,7 +221,7 @@ section a {
 .exp-card {
   background: var(--card);
   border-color: var(--line);
-  box-shadow: var(--shadow);
+  box-shadow: none;
 }
 
 .exp-card-icon,
