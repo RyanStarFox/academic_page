@@ -5,21 +5,26 @@
   padding: 0.25em 0.25em 0.9em;
   margin: 0.5em 0 1.6em;
   scroll-snap-type: x proximity;
+  background: transparent;
+  // Match page paper so the horizontal scrollbar track doesn't look like a gray strip
   scrollbar-width: thin;
-  scrollbar-color: #d0d0d8 transparent;
+  scrollbar-color: #c8c9d0 var(--paper);
 }
 
 .exp-grid::-webkit-scrollbar {
   height: 8px;
+  background: var(--paper);
 }
 
 .exp-grid::-webkit-scrollbar-track {
-  background: transparent;
+  background: var(--paper);
 }
 
 .exp-grid::-webkit-scrollbar-thumb {
-  background: #d0d0d8;
+  background: #c8c9d0;
   border-radius: 9999px;
+  border: 2px solid var(--paper);
+  background-clip: padding-box;
 }
 
 .exp-card {
@@ -96,11 +101,17 @@
 
 html[data-theme="dark"] {
   .exp-grid {
-    scrollbar-color: #4a4b56 transparent;
+    scrollbar-color: #4a4b56 var(--paper);
+  }
+
+  .exp-grid::-webkit-scrollbar,
+  .exp-grid::-webkit-scrollbar-track {
+    background: var(--paper);
   }
 
   .exp-grid::-webkit-scrollbar-thumb {
     background: #4a4b56;
+    border-color: var(--paper);
   }
 
   .exp-card {
