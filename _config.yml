@@ -9,6 +9,8 @@ email: ryan_fox (at) sjtu.edu.cn
 keywords: Yan Shao, Shanghai Jiao Tong University, machine learning, AI agent, efficient AI
 description: Academic homepage of Yan Shao, an undergraduate student in Computer Science at Shanghai Jiao Tong University.
 canonical: https://academic.ryanstarfox.top/
+url: https://academic.ryanstarfox.top
+baseurl: ""
 
 # Links
 google_scholar: https://scholar.google.com/citations?user=mCnWy9UAAAAJ&hl=en

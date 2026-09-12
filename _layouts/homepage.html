@@ -13,6 +13,7 @@
     {% if site.canonical %}
     <link rel="canonical" href="{{ site.canonical }}"/>
     {% endif %}
+    <link rel="sitemap" type="application/xml" href="{{ '/sitemap.xml' | relative_url }}">
     <script>
       (function () {
         try { localStorage.removeItem("theme"); } catch (e) {}
