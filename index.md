@@ -20,7 +20,9 @@ Outside the lab, I try to keep life interesting. If you would like to know more 
 
 {% include_relative _includes/experiences.md %}
 
+<div class="home-pubs">
 {% include_relative _includes/publications.md %}
+</div>
 
 ## Awards
 
