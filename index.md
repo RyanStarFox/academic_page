@@ -21,3 +21,12 @@ Outside the lab, I try to keep life interesting. If you would like to know more 
 {% include_relative _includes/experiences.md %}
 
 {% include_relative _includes/publications.md %}
+
+## Awards
+
+- 2025, **Class C Undergraduate Scholarship**, Shanghai Jiao Tong University.
+- 2024, **Class C Undergraduate Scholarship**, Shanghai Jiao Tong University.
+- 2023–2024, **Outstanding Student Award**, Shanghai Jiao Tong University.
+- **Second Prize**, 16th National College Mathematics Competition (Non-Math Major, Group A).
+- **GRE**: 327 / 340.
+- **TOEFL**: 110 / 120.
