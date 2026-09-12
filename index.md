@@ -4,20 +4,20 @@ layout: homepage
 
 ## About Me
 
-I am a Ph.D. student at ...
+Hi, I'm **Yan Shao**. I am a fourth-year undergraduate in **Computer Science** at [Shanghai Jiao Tong University](https://www.sjtu.edu.cn/). My research interests include **machine learning**, **AI agents**, and **efficient AI**.
 
-## Research Interests
+I am currently a research intern at [SURFI Lab](https://henrygwb.github.io/), UC Santa Barbara, advised by [Wenbo Guo](https://henrygwb.github.io/). I am working on LLM hallucination, and a paper from this line of work is forthcoming.
 
-- **Computer Vision:** image recognition, image generation, video captioning
-- **Machine Learning:** meta-learning, incremental learning, transfer learning
+Outside the lab, I try to keep life interesting. If you would like to know more about me beyond research, you are very welcome to visit my [blog](https://blog.ryanstarfox.top).
 
 ## News
 
-- **[Feb. 2020]** Our paper about incremental learning is accepted to CVPR 2020.
-- **[Feb. 2020]** We will host the ACM Multimedia Asia 2020 conference in Singapore!
-- **[Sept. 2019]** Our paper about few-shot learning is accepted to NeurIPS 2019.
-- **[Mar. 2019]** Our paper about few-shot learning is accepted to CVPR 2019.
+- **[Feb. 2026]** Joined [SURFI Lab](https://henrygwb.github.io/) at UC Santa Barbara as a research intern, advised by [Wenbo Guo](https://henrygwb.github.io/).
+- **[2026]** [NitroBox](https://openreview.net/forum?id=Fg7IC3UM4g) accepted to the ICML 2026 Workshop on Agents in the Wild.
+- **[Jul. 2025]** First place in the group presentation at the NUS SoC Summer Workshop (Cloud Computing), advised by [Tianbai Ma](https://scholar.google.com/citations?user=gdyYJz4AAAAJ&hl=en).
+
+## Experiences
+
+{% include_relative _includes/experiences.md %}
 
 {% include_relative _includes/publications.md %}
-
-{% include_relative _includes/services.md %}
