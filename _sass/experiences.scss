@@ -1,7 +1,24 @@
 .exp-grid-wrap {
-  overflow: visible;
-  clip-path: inset(0);
+  overflow: hidden;
   margin: 0.5em 0 1.6em;
+  -webkit-mask-image: linear-gradient(#000, #000);
+  mask-image: linear-gradient(#000, #000);
+}
+
+.exp-scroll {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-bottom: 40px;
+  margin-bottom: -40px;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+  overscroll-behavior-x: contain;
+}
+
+.exp-scroll::-webkit-scrollbar {
+  display: none;
+  width: 0;
+  height: 0;
 }
 
 .exp-grid {
@@ -9,14 +26,12 @@
   gap: 1em;
   width: max-content;
   max-width: none;
-  overflow: visible;
   padding: 0;
   margin: 0;
   background: transparent;
   cursor: grab;
   user-select: none;
   touch-action: pan-y;
-  will-change: transform;
 }
 
 .exp-grid.is-dragging {

@@ -1,4 +1,5 @@
 <div class="exp-grid-wrap">
+<div class="exp-scroll">
 <div class="exp-grid" role="region" aria-label="Experiences">
   <div class="exp-card">
     <div class="exp-card-icon">
@@ -49,5 +50,6 @@
       <p class="exp-card-period">2020.09 – 2023.06</p>
     </div>
   </div>
+</div>
 </div>
 </div>
