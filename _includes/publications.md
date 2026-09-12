@@ -7,7 +7,7 @@
 
 <li>
 <div class="pub-row">
-      <div class="col-sm-3 abbr" style="position: relative;">
+      <div class="abbr" style="position: relative;">
     {% if link.image %} 
     <img src="{{ link.image }}" class="teaser img-fluid z-depth-1" alt="{{ link.title }}">
     {% if link.conference_short %} 
